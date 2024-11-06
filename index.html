@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Elfarahaty - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-header">
+                <h1>Ali Elfarahaty</h1>
+                <button id="navToggle" aria-label="Toggle Navigation">&#9664;</button> <!-- Left arrow -->
+            </div>
+            <div class="Selfie">
+                <img src="./index.html alt="My Picture">
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="darkModeToggle" aria-label="Toggle Dark Mode">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="fade-in">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a passionate web developer, eager to learn and innovate. Currently diving deep into front-end and back-end technologies with a strong inclination towards mastering Python and computer science fundamentals.</p>
+            </div>
+        </section>
+
+        <section id="experience" class="fade-in">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3>McDonald's - Crew Member</h3>
+                    <p><strong>2021 - Present</strong></p>
+                    <p>Sharpened customer service and teamwork skills, thriving in high-pressure environments while ensuring customer satisfaction.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Pre-Apprenticeship at CFA</h3>
+                    <p><strong>2020</strong></p>
+                    <p>Acquired hands-on experience in the culinary sector, building both technical and collaborative competencies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="fade-in">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li><span>Front-End:</span> HTML, CSS, JavaScript</li>
+                    <li><span>Back-End:</span> Node.js, Express, MongoDB</li>
+                    <li><span>Languages:</span> Java, Python (Learning)</li>
+                    <li><span>Version Control:</span> Git, GitHub</li>
+                    <li><span>Frameworks:</span> React.js, jQuery</li>
+                    <li><span>Tools:</span> VSCode, Postman</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="fade-in">
+            <div class="container">
+                <h2>Projects</h2>
+                <div id="projects-grid">
+                    <div class="project-tile">
+                        <img src="./Images/project1.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <h3>Project 1</h3>
+                            <p>A brief description of the project with interactive features.</p>
+                        </div>
+                    </div>
+                    <div class="project-tile">
+                        <img src="./Images/project2.jpg" alt="Project 2">
+                        <div class="project-overlay">
+                            <h3>Project 2</h3>
+                            <p>An overview of the project’s goals and achievements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="fade-in">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ali Elfarahaty. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
